@@ -5,8 +5,10 @@ if (!defined('PATH')) {
 }
 echo "\r\n";
 
-function dd($var) {
-    print_r($var);exit;
+function dd($var)
+{
+    print_r($var);
+    exit;
 }
 
 spl_autoload_register(function ($class) {
