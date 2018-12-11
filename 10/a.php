@@ -39,7 +39,7 @@ while($seconds < 100) {
     //its rather hacky in hoping that the length of the word is less than 100 coords :D
     if ($distX < 100 && $distY < 50) {
         $reached = true;
-        echo "seconds:" $seconds . PHP_EOL;
+        echo "seconds:" .  $seconds . PHP_EOL;
         for($y = $minY; $y <= $maxY; $y++) {
             if (!isset($grid[$y])) {
                 echo PHP_EOL; continue;
