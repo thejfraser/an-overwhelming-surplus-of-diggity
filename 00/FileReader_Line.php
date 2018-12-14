@@ -7,4 +7,8 @@ class FileReader_Line extends FileReader
     {
         return fgets($this->file);
     }
+
+    public function eof() {
+        return feof($this->file);
+    }
 }
